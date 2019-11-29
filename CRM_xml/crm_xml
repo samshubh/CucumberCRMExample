@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="43.725639">
+<testcase classname="Free CRM Application Test" name="Free CRM Login Test" time="43.725639">
+<system-out><![CDATA[Given user is in the homepage...............................................passed
+When title is displaying as FreeCRM Pro title...............................passed
+Then user entering the email and password...................................passed
+Then clicking on submit button here.........................................passed
+Then user clicking on deals link............................................passed
+Then user clicking on new add deals button..................................passed
+Then user enter title and company...........................................passed
+Then user clicks on save button here........................................passed
+Then closes the browser here................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
