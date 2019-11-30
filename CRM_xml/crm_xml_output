@@ -1,13 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="83.930335">
-<testcase classname="Free CRM Application" name="Passing the values by parameterization" time="83.930335">
-<system-out><![CDATA[Given user is viewing landing page..........................................passed
-When landing page url is displayed..........................................passed
-Then user must enter the email and password.................................passed
-Then user must click on login...............................................passed
-Then user must navigate to tasks link.......................................passed
-Then click on add new button................................................passed
-Then add the title and description and completion...........................passed
-Then quit the browser.......................................................passed
-]]></system-out>
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="4" tests="4" time="0">
+<testcase classname="Kipos Application" name="Login test" time="0">
+<skipped><![CDATA[Given user in landing page..................................................skipped
+When the kipos logo is displayed............................................undefined
+Then click on login.........................................................undefined
+Then user enters email and password.........................................skipped
+Then verify the user name...................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Kipos Application" name="Adding the products to the cart after login" time="0">
+<skipped><![CDATA[Given user in homepage......................................................undefined
+When gourmet text is displayed..............................................undefined
+Then click on gourmet section...............................................skipped
+Then view the product description page by clicking on product image.........undefined
+Then add the ingredients....................................................undefined
+Then click on add to cart...................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Kipos Application" name="Viewing the cart products" time="0">
+<skipped><![CDATA[Given user is in product details page.......................................undefined
+When the cart count is displaying...........................................undefined
+Then click on cart icon.....................................................undefined
+Then increase the product count.............................................undefined
+Then click on checkout button...............................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Kipos Application" name="viewing the checkout page" time="0">
+<skipped><![CDATA[Given user is in checkout page..............................................undefined
+When checkout page text is displayed........................................undefined
+Then select the pickup option...............................................undefined
+Then user set the pick up date and time.....................................undefined
+Then clicks on continue button..............................................undefined
+]]></skipped>
 </testcase>
 </testsuite>
