@@ -1,0 +1,160 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Passing the values by parameterization",
+        "description": "",
+        "id": "free-crm-application;passing-the-values-by-parameterization",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11621629065,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is viewing landing page",
+            "match": {
+              "location": "DataDrivenMaps.user_is_viewing_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 44487076,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "landing page url is displayed",
+            "match": {
+              "location": "DataDrivenMaps.landing_page_url_is_displayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8379202568,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user must enter the email and password",
+            "match": {
+              "location": "DataDrivenMaps.user_must_enter_the_email_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "password"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "subhambiswas895@gmail.com",
+                  "Welcome123$"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4108936759,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user must click on login",
+            "match": {
+              "location": "DataDrivenMaps.user_must_click_on_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4175268948,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user must navigate to tasks link",
+            "match": {
+              "location": "DataDrivenMaps.user_must_navigate_to_tasks_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4198084251,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click on add new button",
+            "match": {
+              "location": "DataDrivenMaps.click_on_add_new_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50176823591,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "add the title and description and completion",
+            "match": {
+              "location": "DataDrivenMaps.add_the_title_and_description_and_completion(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "title",
+                  "description",
+                  "completion"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "Development",
+                  "Testing using maps",
+                  "15"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "Kipos",
+                  "Testing here",
+                  "20"
+                ],
+                "line": 18
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1225903036,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "quit the browser",
+            "match": {
+              "location": "DataDrivenMaps.quit_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Application",
+    "description": "",
+    "id": "free-crm-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/vt1056.SRITADS/eclipse-workspace/CucumberCRMExample/src/main/java/com/qa/feature/maps.feature"
+  }
+]

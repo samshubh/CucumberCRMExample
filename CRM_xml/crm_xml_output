@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="83.930335">
+<testcase classname="Free CRM Application" name="Passing the values by parameterization" time="83.930335">
+<system-out><![CDATA[Given user is viewing landing page..........................................passed
+When landing page url is displayed..........................................passed
+Then user must enter the email and password.................................passed
+Then user must click on login...............................................passed
+Then user must navigate to tasks link.......................................passed
+Then click on add new button................................................passed
+Then add the title and description and completion...........................passed
+Then quit the browser.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
