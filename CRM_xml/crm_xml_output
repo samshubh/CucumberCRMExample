@@ -1,35 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="4" tests="4" time="0">
-<testcase classname="Kipos Application" name="Login test" time="0">
-<skipped><![CDATA[Given user in landing page..................................................skipped
-When the kipos logo is displayed............................................undefined
-Then click on login.........................................................undefined
-Then user enters email and password.........................................skipped
-Then verify the user name...................................................undefined
-]]></skipped>
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="93.258764">
+<testcase classname="Kipos Application" name="Login test" time="40.197604">
+<system-out><![CDATA[Given user in landing page..................................................passed
+When the kipos logo is displayed............................................passed
+Then click on login.........................................................passed
+Then user enters login "prashanth.burri@srijaytech.com" and "welcome123"....passed
+]]></system-out>
 </testcase>
-<testcase classname="Kipos Application" name="Adding the products to the cart after login" time="0">
-<skipped><![CDATA[Given user in homepage......................................................undefined
-When gourmet text is displayed..............................................undefined
-Then click on gourmet section...............................................skipped
-Then view the product description page by clicking on product image.........undefined
-Then add the ingredients....................................................undefined
-Then click on add to cart...................................................undefined
-]]></skipped>
+<testcase classname="Kipos Application" name="Adding the products to the cart after login" time="15.571796">
+<system-out><![CDATA[Given user in homepage......................................................passed
+When gourmet text is displayed..............................................passed
+Then clicking on gourmet section............................................passed
+Then view the product description page by clicking on product image.........passed
+Then add the ingredients....................................................passed
+Then click on add to cart...................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Kipos Application" name="Viewing the cart products" time="0">
-<skipped><![CDATA[Given user is in product details page.......................................undefined
-When the cart count is displaying...........................................undefined
-Then click on cart icon.....................................................undefined
-Then increase the product count.............................................undefined
-Then click on checkout button...............................................undefined
-]]></skipped>
+<testcase classname="Kipos Application" name="Viewing the cart products" time="20.158371">
+<system-out><![CDATA[Given user is in product details page.......................................passed
+When the cart count is displaying...........................................passed
+Then click on cart icon.....................................................passed
+Then increase the product count.............................................passed
+Then click on checkout button...............................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Kipos Application" name="viewing the checkout page" time="0">
-<skipped><![CDATA[Given user is in checkout page..............................................undefined
-When checkout page text is displayed........................................undefined
-Then select the pickup option...............................................undefined
-Then user set the pick up date and time.....................................undefined
-Then clicks on continue button..............................................undefined
-]]></skipped>
+<testcase classname="Kipos Application" name="viewing the checkout page" time="17.330993">
+<system-out><![CDATA[Given user is in checkout page..............................................passed
+When checkout page text is displayed........................................passed
+Then select the pickup option...............................................passed
+Then user set the pick up date and time.....................................passed
+Then clicks on continue button..............................................passed
+]]></system-out>
 </testcase>
 </testsuite>

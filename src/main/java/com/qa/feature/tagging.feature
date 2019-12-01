@@ -6,20 +6,13 @@ Scenario: Login test
 Given user in landing page 
 When the kipos logo is displayed 
 Then click on login
-Then user enters email and password
-
-|email|password|
-|prashanth.burri@srijaytech.com|welcome123|
-|jay@srijaytech.com|welcome123|
-
-Then verify the user name
-
+Then user enters login "prashanth.burri@srijaytech.com" and "welcome123"
 
 @SmokeTest
 Scenario: Adding the products to the cart after login
 Given user in homepage
 When gourmet text is displayed
-Then click on gourmet section
+Then clicking on gourmet section
 Then view the product description page by clicking on product image
 Then add the ingredients
 Then click on add to cart

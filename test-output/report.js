@@ -1,10 +1,14 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/vt1056.SRITADS/eclipse-workspace/CucumberCRMExample/src/main/java/com/qa/feature/tagging.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/Shubham/eclipse-workspace/CucumberCRMExample/src/main/java/com/qa/feature/tagging.feature");
 formatter.feature({
   "line": 1,
   "name": "Kipos Application",
   "description": "",
   "id": "kipos-application",
   "keyword": "Feature"
+});
+formatter.before({
+  "duration": 20273810908,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 5,
@@ -41,63 +45,57 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "user enters email and password",
-  "rows": [
-    {
-      "cells": [
-        "email",
-        "password"
-      ],
-      "line": 11
-    },
-    {
-      "cells": [
-        "prashanth.burri@srijaytech.com",
-        "welcome123"
-      ],
-      "line": 12
-    },
-    {
-      "cells": [
-        "jay@srijaytech.com",
-        "welcome123"
-      ],
-      "line": 13
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 15,
-  "name": "verify the user name",
+  "name": "user enters login \"prashanth.burri@srijaytech.com\" and \"welcome123\"",
   "keyword": "Then "
 });
 formatter.match({
   "location": "TaggingExample.user_in_landing_page()"
 });
 formatter.result({
-  "status": "skipped"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+  "duration": 160591275,
+  "status": "passed"
 });
 formatter.match({
-  "location": "StepDefinition.user_enters_email_and_password()"
+  "location": "TaggingExample.the_kipos_logo_is_displayed()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 103043185,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "TaggingExample.click_on_login()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 4184080587,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "prashanth.burri@srijaytech.com",
+      "offset": 19
+    },
+    {
+      "val": "welcome123",
+      "offset": 56
+    }
+  ],
+  "location": "TaggingExample.user_enters_login_email_and_password(String,String)"
+});
+formatter.result({
+  "duration": 14733497695,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 742580634,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 14598966361,
+  "status": "passed"
 });
 formatter.scenario({
-  "line": 19,
+  "line": 12,
   "name": "Adding the products to the cart after login",
   "description": "",
   "id": "kipos-application;adding-the-products-to-the-cart-after-login",
@@ -105,69 +103,93 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 18,
+      "line": 11,
       "name": "@SmokeTest"
     }
   ]
 });
 formatter.step({
-  "line": 20,
+  "line": 13,
   "name": "user in homepage",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 21,
+  "line": 14,
   "name": "gourmet text is displayed",
   "keyword": "When "
 });
 formatter.step({
-  "line": 22,
-  "name": "click on gourmet section",
+  "line": 15,
+  "name": "clicking on gourmet section",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 23,
+  "line": 16,
   "name": "view the product description page by clicking on product image",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 24,
+  "line": 17,
   "name": "add the ingredients",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 25,
+  "line": 18,
   "name": "click on add to cart",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "TaggingExample.user_in_homepage()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 196136576,
+  "status": "passed"
 });
 formatter.match({
-  "location": "StepDefinition.click_on_gourmet_section()"
+  "location": "TaggingExample.gourmet_text_is_displayed()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 27370,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "TaggingExample.clicking_on_gourmet_section()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 31647,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "TaggingExample.view_the_product_description_page_by_clicking_on_product_image()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 29081,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TaggingExample.add_the_ingredients()"
+});
+formatter.result({
+  "duration": 35923,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TaggingExample.click_on_add_to_cart()"
+});
+formatter.result({
+  "duration": 35067,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 776534208,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 19426419596,
+  "status": "passed"
 });
 formatter.scenario({
-  "line": 28,
+  "line": 21,
   "name": "Viewing the cart products",
   "description": "",
   "id": "kipos-application;viewing-the-cart-products",
@@ -175,62 +197,85 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 27,
+      "line": 20,
       "name": "@SmokeTest"
     },
     {
-      "line": 27,
+      "line": 20,
       "name": "@SanityTest"
     }
   ]
 });
 formatter.step({
-  "line": 29,
+  "line": 22,
   "name": "user is in product details page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 30,
+  "line": 23,
   "name": "the cart count is displaying",
   "keyword": "When "
 });
 formatter.step({
-  "line": 31,
+  "line": 24,
   "name": "click on cart icon",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 32,
+  "line": 25,
   "name": "increase the product count",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 33,
+  "line": 26,
   "name": "click on checkout button",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "TaggingExample.user_is_in_product_details_page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 60299,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "TaggingExample.the_cart_count_is_displaying()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 30791,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "TaggingExample.click_on_cart_icon()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 25231,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TaggingExample.increase_the_product_count()"
+});
+formatter.result({
+  "duration": 93656,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TaggingExample.click_on_checkout_button()"
+});
+formatter.result({
+  "duration": 33357,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 731707964,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 16566507437,
+  "status": "passed"
 });
 formatter.scenario({
-  "line": 36,
+  "line": 29,
   "name": "viewing the checkout page",
   "description": "",
   "id": "kipos-application;viewing-the-checkout-page",
@@ -238,58 +283,77 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 35,
+      "line": 28,
       "name": "@SmokeTest"
     },
     {
-      "line": 35,
+      "line": 28,
       "name": "@SanityTest"
     }
   ]
 });
 formatter.step({
-  "line": 37,
+  "line": 30,
   "name": "user is in checkout page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 38,
+  "line": 31,
   "name": "checkout page text is displayed",
   "keyword": "When "
 });
 formatter.step({
-  "line": 39,
+  "line": 32,
   "name": "select the pickup option",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 40,
+  "line": 33,
   "name": "user set the pick up date and time",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 41,
+  "line": 34,
   "name": "clicks on continue button",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "TaggingExample.user_is_in_checkout_page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 27798,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "TaggingExample.checkout_page_text_is_displayed()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 23521,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "TaggingExample.select_the_pickup_option()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 26942,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TaggingExample.user_set_the_pick_up_date_and_time()"
+});
+formatter.result({
+  "duration": 23094,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TaggingExample.clicks_on_continue_button()"
+});
+formatter.result({
+  "duration": 20528,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 764364036,
+  "status": "passed"
 });
 });

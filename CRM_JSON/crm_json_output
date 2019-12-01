@@ -3,16 +3,39 @@
     "line": 1,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 20273810908,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggingExample.setUp()"
+            }
+          }
+        ],
         "line": 5,
         "name": "Login test",
         "description": "",
         "id": "kipos-application;login-test",
+        "after": [
+          {
+            "result": {
+              "duration": 742580634,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggingExample.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 160591275,
+              "status": "passed"
             },
             "line": 6,
             "name": "user in landing page",
@@ -23,63 +46,48 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 103043185,
+              "status": "passed"
             },
             "line": 7,
             "name": "the kipos logo is displayed",
-            "match": {},
+            "match": {
+              "location": "TaggingExample.the_kipos_logo_is_displayed()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 4184080587,
+              "status": "passed"
             },
             "line": 8,
             "name": "click on login",
-            "match": {},
+            "match": {
+              "location": "TaggingExample.click_on_login()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 14733497695,
+              "status": "passed"
             },
             "line": 9,
-            "name": "user enters email and password",
+            "name": "user enters login \"prashanth.burri@srijaytech.com\" and \"welcome123\"",
             "match": {
-              "location": "StepDefinition.user_enters_email_and_password()"
+              "arguments": [
+                {
+                  "val": "prashanth.burri@srijaytech.com",
+                  "offset": 19
+                },
+                {
+                  "val": "welcome123",
+                  "offset": 56
+                }
+              ],
+              "location": "TaggingExample.user_enters_login_email_and_password(String,String)"
             },
-            "rows": [
-              {
-                "cells": [
-                  "email",
-                  "password"
-                ],
-                "line": 11
-              },
-              {
-                "cells": [
-                  "prashanth.burri@srijaytech.com",
-                  "welcome123"
-                ],
-                "line": 12
-              },
-              {
-                "cells": [
-                  "jay@srijaytech.com",
-                  "welcome123"
-                ],
-                "line": 13
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 15,
-            "name": "verify the user name",
-            "match": {},
             "keyword": "Then "
           }
         ],
@@ -95,203 +103,315 @@
         ]
       },
       {
-        "line": 19,
+        "before": [
+          {
+            "result": {
+              "duration": 14598966361,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggingExample.setUp()"
+            }
+          }
+        ],
+        "line": 12,
         "name": "Adding the products to the cart after login",
         "description": "",
         "id": "kipos-application;adding-the-products-to-the-cart-after-login",
+        "after": [
+          {
+            "result": {
+              "duration": 776534208,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggingExample.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 196136576,
+              "status": "passed"
             },
-            "line": 20,
+            "line": 13,
             "name": "user in homepage",
-            "match": {},
+            "match": {
+              "location": "TaggingExample.user_in_homepage()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 27370,
+              "status": "passed"
             },
-            "line": 21,
+            "line": 14,
             "name": "gourmet text is displayed",
-            "match": {},
+            "match": {
+              "location": "TaggingExample.gourmet_text_is_displayed()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 31647,
+              "status": "passed"
             },
-            "line": 22,
-            "name": "click on gourmet section",
+            "line": 15,
+            "name": "clicking on gourmet section",
             "match": {
-              "location": "StepDefinition.click_on_gourmet_section()"
+              "location": "TaggingExample.clicking_on_gourmet_section()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 29081,
+              "status": "passed"
             },
-            "line": 23,
+            "line": 16,
             "name": "view the product description page by clicking on product image",
-            "match": {},
+            "match": {
+              "location": "TaggingExample.view_the_product_description_page_by_clicking_on_product_image()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 35923,
+              "status": "passed"
             },
-            "line": 24,
+            "line": 17,
             "name": "add the ingredients",
-            "match": {},
+            "match": {
+              "location": "TaggingExample.add_the_ingredients()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 35067,
+              "status": "passed"
             },
-            "line": 25,
+            "line": 18,
             "name": "click on add to cart",
-            "match": {},
+            "match": {
+              "location": "TaggingExample.click_on_add_to_cart()"
+            },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 18,
+            "line": 11,
             "name": "@SmokeTest"
           }
         ]
       },
       {
-        "line": 28,
+        "before": [
+          {
+            "result": {
+              "duration": 19426419596,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggingExample.setUp()"
+            }
+          }
+        ],
+        "line": 21,
         "name": "Viewing the cart products",
         "description": "",
         "id": "kipos-application;viewing-the-cart-products",
+        "after": [
+          {
+            "result": {
+              "duration": 731707964,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggingExample.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 60299,
+              "status": "passed"
             },
-            "line": 29,
+            "line": 22,
             "name": "user is in product details page",
-            "match": {},
+            "match": {
+              "location": "TaggingExample.user_is_in_product_details_page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 30791,
+              "status": "passed"
             },
-            "line": 30,
+            "line": 23,
             "name": "the cart count is displaying",
-            "match": {},
+            "match": {
+              "location": "TaggingExample.the_cart_count_is_displaying()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 25231,
+              "status": "passed"
             },
-            "line": 31,
+            "line": 24,
             "name": "click on cart icon",
-            "match": {},
+            "match": {
+              "location": "TaggingExample.click_on_cart_icon()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 93656,
+              "status": "passed"
             },
-            "line": 32,
+            "line": 25,
             "name": "increase the product count",
-            "match": {},
+            "match": {
+              "location": "TaggingExample.increase_the_product_count()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 33357,
+              "status": "passed"
             },
-            "line": 33,
+            "line": 26,
             "name": "click on checkout button",
-            "match": {},
+            "match": {
+              "location": "TaggingExample.click_on_checkout_button()"
+            },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 27,
+            "line": 20,
             "name": "@SmokeTest"
           },
           {
-            "line": 27,
+            "line": 20,
             "name": "@SanityTest"
           }
         ]
       },
       {
-        "line": 36,
+        "before": [
+          {
+            "result": {
+              "duration": 16566507437,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggingExample.setUp()"
+            }
+          }
+        ],
+        "line": 29,
         "name": "viewing the checkout page",
         "description": "",
         "id": "kipos-application;viewing-the-checkout-page",
+        "after": [
+          {
+            "result": {
+              "duration": 764364036,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggingExample.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 27798,
+              "status": "passed"
             },
-            "line": 37,
+            "line": 30,
             "name": "user is in checkout page",
-            "match": {},
+            "match": {
+              "location": "TaggingExample.user_is_in_checkout_page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 23521,
+              "status": "passed"
             },
-            "line": 38,
+            "line": 31,
             "name": "checkout page text is displayed",
-            "match": {},
+            "match": {
+              "location": "TaggingExample.checkout_page_text_is_displayed()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 26942,
+              "status": "passed"
             },
-            "line": 39,
+            "line": 32,
             "name": "select the pickup option",
-            "match": {},
+            "match": {
+              "location": "TaggingExample.select_the_pickup_option()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 23094,
+              "status": "passed"
             },
-            "line": 40,
+            "line": 33,
             "name": "user set the pick up date and time",
-            "match": {},
+            "match": {
+              "location": "TaggingExample.user_set_the_pick_up_date_and_time()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 20528,
+              "status": "passed"
             },
-            "line": 41,
+            "line": 34,
             "name": "clicks on continue button",
-            "match": {},
+            "match": {
+              "location": "TaggingExample.clicks_on_continue_button()"
+            },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 35,
+            "line": 28,
             "name": "@SmokeTest"
           },
           {
-            "line": 35,
+            "line": 28,
             "name": "@SanityTest"
           }
         ]
@@ -301,6 +421,6 @@
     "description": "",
     "id": "kipos-application",
     "keyword": "Feature",
-    "uri": "C:/Users/vt1056.SRITADS/eclipse-workspace/CucumberCRMExample/src/main/java/com/qa/feature/tagging.feature"
+    "uri": "C:/Users/Shubham/eclipse-workspace/CucumberCRMExample/src/main/java/com/qa/feature/tagging.feature"
   }
 ]
